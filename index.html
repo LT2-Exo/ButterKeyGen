@@ -132,6 +132,7 @@
         function copyKey() {
             const key = document.getElementById('keyBox').textContent;
             navigator.clipboard.writeText(key).then(() => {
+                alert("Open F12 and paste the code that was copied into console, run it and you will get a key.")
                 document.location.href = "https://ndenthaitingsho.org/"
             });
         }
